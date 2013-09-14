@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seokceed.openmygirl"
+    android:versionCode="21"
+    android:versionName="1.8.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.seokceed.openmygirl.MainImageActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="startActivity"
+                    android:scheme="MyGirl" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContentSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HumanTheaterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SingroomActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JisikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WooparooActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OllehActivity"
+            android:screenOrientation="portrait" 
+            />
+        <activity android:name="com.nbpcorp.mobilead.sdk.MobileAdBrowserActivity" />
+    </application>
+
+</manifest>

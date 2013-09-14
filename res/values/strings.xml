@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">꾸쥬워마이걸</string>    
+    <string name="btn_gallery">가져오기</string>
+    <string name="btn_camera">사진찍기</string>
+    <string name="btn_save">저장하기</string>
+    <string name="btn_share">공유하기</string>
+    <string name="btn_info">꾸꾸앱이 맘에든다면</string>
+    <string name="dialog_human">인간극장</string>
+    <string name="hint_name">주인공 이름 : 청량리겜팔이</string>
+    <string name="hint_age">주인공 나이 : 25세</string>
+    <string name="hint_job">주인공 직업 : 겜팔이</string>
+    <string name="hint_text">주인공 대사 : 저작권이 무서워요.</string>
+    <string name="human_hint_pd">PD 질문 : 왜이리 떠세요?</string>
+    <string name="dialog_make">이미지만들기</string>
+    <string name="back">뒤로가기</string>
+    <string name="dialog_lol">리그오브레전드</string>
+    <string name="hint_lol">소환사 이름 : </string>
+    <string name="lol_crazy">님이 미쳐 날뛰고 있습니다!</string>
+    <string name="toast_saved">사진이 갤러리에 저장되었습니다.</string>
+    <string name="toast_failed">저장 실패! 폴더를 만들지 못했나봐요! ㅠ.ㅠ</string>
+    <string name="toast_cantfile">가져올 수 없는 이미지 입니다! ㅠ.ㅠ</string>
+    <string name="camera_failed">카메라에서 사진을 가져올 수 없습니다! ㅠ.ㅠ</string>
+    <string name="toast_music">사진을 누르시면 음악이 꺼집니다.</string>
+    <string name="dialog_loading">이미지 생성중&#8230;</string>
+    <string name="dialog_saving">사진을 저장하고 있습니다&#8230;</string>
+    <string name="dialog_select">선택하기</string>
+    <string name="howoto">여름에도\n짱짱 쉬운 꾸쥬워마이걸 사용법\n\n1. 사진 찍거나 가져오기\n2. 사진감상\n3. 저장하기\n4. 끄읏\n5. 친구에게 공유하기\n\n사진을 누르면 음악이 꺼집니다.</string>
+    <string name="please_mail">이 어플리케이션은\n여러분의 사랑을 받고 자랍니다.\n여러분의 빛나는 아이디어로\n더 짱짱 재미있는 어플리케이션이 될 수 있습니다!\n넘치는 사랑 잊지않겠습니다. ^^7</string>
+    <string name="app_title">꾸쥬워마이걸 for Android</string>
+    <string name="company">2013 Blackhole Studio</string>
+    <string name="signature">seokceed : 1989</string>
+    <string name="send_mail">아이디어나 질문 보내기</string>
+    <string name="send_kakao">짱짱앱을 친구에게 알려주기</string>
+    <string name="like_fb">짱짱앱을 좋아한다 말해주기</string>
+    <string name="send_mail_title">꾸쥬워마이걸 아이디어 보내요! (안드로이드)</string>
+    <string name="need_image">이미지를 먼저 만드세요!</string>
+    <string name="kakao_share_msg">짱짱앱이 배달되었습니다!! ^^7</string>
+    <string name="share_what">짱짱사진 공유하기!</string>
+    
+    <string name="jisik_name">지식채널 주인공</string>
+    <string name="jisik_text1">대사 첫째줄</string>
+    <string name="jisik_text2">대사 둘째줄</string>
+    <string name="jisik_text3">대사 셋째줄</string>
+    
+    <string name="dialog_poke">포켓몬스터</string>
+    <string name="poke_hint_name">포켓몬 이름 : </string>
+    <string name="poke_hint_lv">포켓몬 레벨 : </string>
+    <string name="poke_hint_skill">포켓몬 기술 : </string>
+    <string name="poke_effect_good">효과는 강력했다!</string>
+    <string name="poke_effect_bad">효과는 미미했다!</string>
+    
+    <string name="dialog_singroom">꾸꾸노래방</string>
+    <string name="hint_sing_num">곡 번호 : </string>
+    <string name="hint_sing_singer">가수 : </string>
+    <string name="hint_sing_title">제목 : </string>
+    <string name="hint_sing_first">첫번째 줄 : 예) 내 거친 생각과</string>
+    <string name="hint_sing_second">두번째 줄 : 예) 불안한 눈빛과</string>
+    
+    <string name="years">년</string>
+    
+    <string name="per_year">1년</string>
+    <string name="per_sec">1초</string>
+    <string name="per_minute">1분</string>
+    <string name="per_week">1주</string>
+    <string name="per_day">1일</string>
+    <string name="per_month">1달</string>
+    
+    <string name="kilo">키로</string>
+    <string name="spoon">스푼</string>
+    <string name="mass">덩이</string>
+    <string name="ton">톤</string>
+    
+    <string name="hint_wooparoo_name">이름 혹은 별명: 청량리겜팔이</string>
+    <string name="hint_wooparoo_age">나이: 25</string>
+    <string name="hint_wooparoo_location">출몰지역: 청량리</string>
+    <string name="hint_wooparoo_like">좋아하는것:관심</string>
+    <string name="hint_wooparoo_secretion">자신있는분비물:드립</string>
+    <string name="hint_wooparoo_text">특징이나 습성: (엔터로 줄을 바꿔요!)</string>
+    
+    <string name="exit_ok">꾸쥬워마이걸 종료!</string>
+    <string name="exit_cancel">취소하기</string>
+    <string name="clicked_ad">간지짱짱!</string>
+    
+    <string name="banner_text">패러디 고르기</string>
+    <string name="olleh_twice">두배!</string>
+    <string name="olleh_hint">재미가 두배!</string>
+    <string name="olleh_really">리얼...리?</string>
+    
+    <string name="created_by">Team 녹색스마트창조\n\n만든사람\n청량리겜팔이\n\n더 만든사람\n안암동김피디\n\n여름배경\n천왕동하나님</string>
+ 
+    
+    <string name="grid_test">Lorem ipsum dolor sit amet</string>
+        
+    <string-array name="meta_pedia">
+        <item name="name">꾸꾸백과</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">뭐하지꾸</item>                
+    </string-array>
+    
+    <string-array name="meta_hwakmila">
+        <item name="name">확산성 밀리언 꾸꾸</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">뭐하지꾸</item>                
+    </string-array>
+    
+    <string-array name="meta_olleh">
+        <item name="name">울레 꾸배!</item>
+        <item name="maker">olleh</item>
+        <item name="bgm_name">꾸배가 돼 꾸꾸배 꾸배꾸</item>
+    </string-array>
+    
+    <string-array name="meta_bene">
+        <item name="name">꾸쥬워마이걸</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">음악 잠시 안나와여 ㅠㅠ</item>
+    </string-array>
+    
+    <string-array name="meta_human">
+        <item name="name">인간극장</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">음악 잠시 안나와여 ㅠㅠ</item>
+    </string-array>
+    
+    <string-array name="meta_lol">
+        <item name="name">리그오브레전드</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">미쳐 날뛰고 있습니다! (리그오브레전드)</item>
+    </string-array>
+    
+    <string-array name="meta_poke">
+        <item name="name">포켓몬스터</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">앗! 야생의 포켓몬(이)가 나타났다!</item>
+    </string-array>
+    
+    <string-array name="meta_jisik">
+        <item name="name">지식채널e</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">슈우우우웅</item>
+    </string-array>
+    
+    <string-array name="meta_wooparoo">
+        <item name="name">우파루마운틴</item>
+        <item name="maker">nhn</item>
+        <item name="bgm_name">꾸파루!</item>
+    </string-array>
+    
+<!--     <string-array name="meta_sponge"> -->
+<!--         <item name="name">꾸펀지</item> -->
+<!--         <item name="maker">기본</item> -->
+<!--         <item name="bgm_name">빛나라 지식의 꾸!</item> -->
+<!--     </string-array> -->
+    
+    <string-array name="meta_singroom" >
+        <item name="name">꾸꾸노래방</item>
+        <item name="maker">기본</item>
+        <item name="bgm_name">서비스 20분 추가되었습니다.</item>
+    </string-array>
+        <string name="morefun">더 재미있어지고 싶어요!\n함께 만들어요!</string>
+
+</resources>

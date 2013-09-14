@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    style="@style/PinkStyle"
+    android:padding="@dimen/activity_vertical_margin" >
+
+    <TextView
+        style="@style/PinkText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/emo_im_lips_are_sealed"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:text="@string/app_title"
+        android:textSize="16sp" />
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- android:gravity="center_horizontal" -->
+    <!-- android:text="@string/please_mail" /> -->
+    
+    <TextView android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:text="@string/created_by"
+        android:gravity="center"
+        style="@style/PinkText"
+        android:layout_height="wrap_content"/>
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/PinkText"
+        android:text="@string/company"/>
+
+<!--     <ImageView -->
+<!--         android:layout_marginTop="10dp" -->
+<!--         android:layout_marginBottom="10dp" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:background="@drawable/thankyou" /> -->
+
+    <RelativeLayout
+        android:id="@+id/btn_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/ib_compose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_compose"
+            android:clickable="false" />
+
+        <TextView
+            style="@style/PinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ib_compose"
+            android:text="@string/send_mail"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+<!--     tstore gone.-->
+<!-- google play visible -->
+
+    <RelativeLayout
+        android:id="@+id/btn_kakao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:visibility="visible" >
+
+        <ImageButton
+            android:id="@+id/ib_kakao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_kakaotalk_logo_andr"
+            android:clickable="false" />
+
+        <TextView
+            style="@style/PinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/ib_kakao"
+            android:text="@string/send_kakao"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp" >
+
+        <ImageButton
+            android:id="@+id/ib_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fb_like_icon"
+            android:clickable="false" />
+
+        <TextView
+            style="@style/PinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/ib_fb"
+            android:text="@string/like_fb"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+<!--     <TextView -->
+<!--         style="@style/PinkText" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center_horizontal" -->
+<!--         android:layout_marginTop="20dp" -->
+<!--         android:text="@string/signature" /> -->
+
+</LinearLayout>

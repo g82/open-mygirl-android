@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/emo_im_winking"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:text="\?"
+        style="@style/PinkText"
+        android:textSize="74sp"/>
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/PinkText"
+        android:text="@string/morefun"
+        android:textSize="16sp"/>
+
+</LinearLayout>

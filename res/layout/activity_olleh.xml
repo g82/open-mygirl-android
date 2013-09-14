@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/PinkStyle"
+    android:orientation="vertical" >
+    
+    
+    <EditText android:layout_width="match_parent"
+        android:hint="@string/olleh_hint"
+        android:maxLength="7"
+        android:layout_height="wrap_content" android:id="@+id/et_ollehtext"/>
+    
+    <CheckBox android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:checked="false" android:id="@+id/chk_olleh_really"
+        style="@style/PinkText"
+        android:text="@string/olleh_really"/>
+    
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/olleh_twice"
+        android:id="@+id/btn_ollehok"/>
+    
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/btn_back"/>
+
+</LinearLayout>
